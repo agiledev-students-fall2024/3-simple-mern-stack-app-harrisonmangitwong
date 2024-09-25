@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import pictureOfMe from './LP.jpeg'
 
 const AboutUs = () => {
   const [aboutData, setAboutData] = useState({ message: '', image: '' });
@@ -15,7 +16,7 @@ const AboutUs = () => {
     <div>
         <h1> About Me </h1>
         <p> {aboutData.message} </p>
-        <img src={`${aboutData.image}`}></img>
+        <img src={pictureOfMe}></img>
     </div>
   );
 };
