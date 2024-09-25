@@ -80,7 +80,6 @@ app.post('/messages/save', async (req, res) => {
 
 // a route for the About Us page
 app.get('/about', async (req, res) => {
-  // try {
     res.json({
       message: "Hello. My name is Harrison Wong and I am a student at NYU studying CS and Business. I am aspiring to become a product manager in the future and so I am excited to be taking this class. In my free time, I enjoy playing basketball and eating out. Some of my favorite spots in the city are Ahgassi Gopchang, Take31, and Nana's Green Tea for dessert.",
     })
